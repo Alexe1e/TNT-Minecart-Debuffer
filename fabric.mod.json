@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "tnt_minecart_nerf",
+	"version": "${version}",
+	"name": "TNT Minecart Nerf",
+	"description": "Schwaecht TNT-Loren um 30 % ab (Explosionsradius x 0,7). Nur serverseitig noetig - funktioniert auch fuer Bedrock-Spieler ueber Geyser/Floodgate.",
+	"authors": ["Alex"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": ["tnt_minecart_nerf.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
